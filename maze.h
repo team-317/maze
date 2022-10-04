@@ -1,3 +1,5 @@
+#ifndef INCLUDE
+#define INCLUDE
 #include <iostream>			//输入输出流
 #include <cstdlib>			//标准库
 #include <unistd.h>			//延时函数库
@@ -38,3 +40,12 @@ public:
 
     void print();
 };
+void createMaze();
+void printMaze();
+void check(stack_of_maze &s);
+
+void move();
+char getch();
+
+void autoMove(stack_of_maze &s);
+#endif

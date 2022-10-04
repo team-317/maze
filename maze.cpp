@@ -1,5 +1,6 @@
-#include<maze.h>
+#include"maze.h"
 #include<vector>
+
 stack_of_maze::stack_of_maze()
 {
     //初始化
@@ -95,7 +96,7 @@ void printMaze()
     //清屏，如果是windows环境使用system("cls")
     system("clear");
     //打印地图
-    vector<string> mark("  ", "墙", "x ", "↓ ", "→ ","↑ ", "← ", "我");
+    vector<string> mark{"  ", "墙", "x ", "↓ ", "→ ","↑ ", "← ", "我"};
     for(x=0; x<MAX_X; x++) {
         for(y=0; y<MAX_Y; y++) {
             int pos = maze[x][y];
