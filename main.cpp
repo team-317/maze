@@ -1,6 +1,5 @@
 #include"maze.h"
-#include"maze.cpp"
-#include"move.cpp"
+
 void menu();
 
 void gamestart()

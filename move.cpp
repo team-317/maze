@@ -1,5 +1,5 @@
 #include"maze.h"
-extern int maze[MAX_X][MAX_Y];
+
 
 char getch()
 {
