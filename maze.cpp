@@ -1,5 +1,9 @@
 #include"maze.h"
-#include<vector>
+
+bool flag = false;
+bool slow = false;
+bool autogame = true;
+int maze[MAX_X][MAX_Y];		//迷宫
 
 stack_of_maze::stack_of_maze()
 {
